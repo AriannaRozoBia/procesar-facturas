@@ -119,10 +119,6 @@ def detectar_comercializador(texto):
         return "vatia"
     elif "qi energy" in texto:
         return "qienergy"
-    elif "qi energy" in texto:
-        return "qienergy"
-    elif "vatia" in texto:
-        return "vatia"
     elif "caribemar" in texto:
         return "afinia"
     elif  "celsia" in texto:
