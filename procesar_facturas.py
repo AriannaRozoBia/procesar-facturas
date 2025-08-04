@@ -119,7 +119,6 @@ def detectar_comercializador(texto):
         return "afinia"
     elif  "celsia" in texto:
         return "celsia"
-    elif "electrohuila" in texto:
     elif "lectrohuila" in texto:
         return "electrohuila"
     elif "emcali" in texto:
