@@ -115,6 +115,8 @@ def detectar_comercializador(texto):
 
     if "air-e" in texto:
         return "air-e"
+    elif "vatia" in texto:
+        return "vatia"
     elif "qi energy" in texto:
         return "qienergy"
     elif "caribemar" in texto:
@@ -131,8 +133,6 @@ def detectar_comercializador(texto):
         return "essa"
     elif "epm" in texto:
         return "epm"
-    elif "vatia" in texto:
-        return "vatia"
     return "Desconocido"
 
 def detectar_subformato_enel(texto):
