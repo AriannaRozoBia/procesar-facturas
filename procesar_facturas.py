@@ -115,10 +115,17 @@ def detectar_comercializador(texto):
 
     if "air-e" in texto:
         return "air-e"
+<<<<<<< Updated upstream
     elif "vatia" in texto:
         return "vatia"
     elif "qi energy" in texto:
         return "qienergy"
+=======
+    elif "qi energy" in texto:
+        return "qienergy"
+    elif "vatia" in texto:
+        return "vatia"
+>>>>>>> Stashed changes
     elif "caribemar" in texto:
         return "afinia"
     elif  "celsia" in texto:
